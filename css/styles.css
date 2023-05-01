@@ -906,3 +906,11 @@ button:hover {
     transform: rotate(-135deg);
     -webkit-transform: rotate(-135deg);
   }
+  .medium-icon{
+    background: url('../images/medium-icon.png');
+    height: 30px;
+    margin-bottom: -30px;
+    background-repeat: no-repeat;
+    width: 45px;
+    display: block;
+  }
