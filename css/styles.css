@@ -567,12 +567,14 @@ footer {
     margin: 0 0 15px 0;
     font-size: 0.9em
 }
-.project-info ul{
+
+.project-info ul {
     color: #74808a;
     position: relative;
     text-align: left;
     font-size: 0.9em
 }
+
 .no-image .project-info {
     position: relative;
     margin: 0;
@@ -876,41 +878,53 @@ footer {
         padding: 5px 10px
     }
 }
-button{
+
+button {
     color: #3498db;
     background: none;
     border-style: none;
     padding: 10px;
 }
-#journey{
-display: none;}
+
+
+#journey-text {
+    display: none;
+    padding: 0 15px;
+}
+#joubtn{
+    text-align: center;
+}
 button:hover {
     color: #217dbb;
     text-decoration: none;
     background: #eee;
     border-radius: 4px
 }
+
 .arrow {
     border: solid black;
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 3px;
-  }
+}
+
 .down {
-    
+
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
-  }
-  .up {
+}
+
+.up {
     display: none;
     transform: rotate(-135deg);
     -webkit-transform: rotate(-135deg);
-  }
-  .medium-icon{
+}
+
+.medium-icon {
     background: url('../images/medium-icon.png');
     height: 30px;
     margin-bottom: -30px;
     background-repeat: no-repeat;
     width: 45px;
     display: block;
-  }
+}
